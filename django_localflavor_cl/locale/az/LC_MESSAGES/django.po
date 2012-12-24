@@ -1,0 +1,29 @@
+# This file is distributed under the same license as the Django package.
+# 
+# Translators:
+# Ali Ismayilov <ali@ismailov.info>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: django-localflavor-cl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-20 16:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Ali Ismayilov <ali@ismailov.info>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: forms.py:32
+msgid "Enter a valid Chilean RUT."
+msgstr "Çili üçün RUT daxil edin."
+
+#: forms.py:33
+msgid "Enter a valid Chilean RUT. The format is XX.XXX.XXX-X."
+msgstr "XX.XXX.XXX-X formatında Çili üçün düzgün RUT daxil edin."
+
+#: forms.py:34
+msgid "The Chilean RUT is not valid."
+msgstr "Çili üçün RUT düzgün deyil."

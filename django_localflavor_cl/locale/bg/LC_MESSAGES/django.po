@@ -1,0 +1,31 @@
+# This file is distributed under the same license as the Django package.
+# 
+# Translators:
+# Boris Chervenkov <office@sentido.bg>, 2012.
+# Jannis Leidel <jannis@leidel.info>, 2011.
+# Todor Lubenov <tlubenov@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: django-localflavor-cl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-20 16:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Boris Chervenkov <office@sentido.bg>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: forms.py:32
+msgid "Enter a valid Chilean RUT."
+msgstr "Въведете валиден чилийски RUT."
+
+#: forms.py:33
+msgid "Enter a valid Chilean RUT. The format is XX.XXX.XXX-X."
+msgstr "Въведете валиден чилийски RUT. Форпатът представлява ХХ ХХХ ХХХ-Х."
+
+#: forms.py:34
+msgid "The Chilean RUT is not valid."
+msgstr "Чилийският RUT не е валиден."
