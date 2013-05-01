@@ -13,7 +13,7 @@ from django.utils.encoding import smart_text
 from .cl_regions import REGION_CHOICES
 
 
-phone_digits_re = re.compile(r'^(\d{2})[-\.]?(\d{4})[-\.]?(\d{4})$')
+phone_digits_re = re.compile(r'^(\d{1,2})[-\.]?(\d{4})[-\.]?(\d{4})$')
 
 
 class CLRegionSelect(Select):
@@ -113,5 +113,7 @@ class CLPhoneNumberField(CharField):
         value = re.sub('(\(|\)|\s+)', '', smart_text(value))
         m = phone_digits_re.search(value)
         if m:
-            return '%s %s %s' % (m.group(1), m.group(2), m.group(3))
+            area_code = m.group(1)
+            if area_code == '02': area_code = '2'
+            return '%s %s %s' % (area_code, m.group(2), m.group(3))
         raise ValidationError(self.error_messages['invalid'])
